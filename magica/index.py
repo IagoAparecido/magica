@@ -7,7 +7,7 @@ for i in range(0,7):
     print(a[i], b[i], c[i] )
 seleciona = input("Selecione uma das opções e diga em qual coluna ele se encontra: ")
 print("#################################################################")
-
+ 
 if seleciona == "a" or seleciona == "a":
     lista =  b + a + c
 elif seleciona == "b" or seleciona == "B":
@@ -21,13 +21,14 @@ listaA = []
 listaB = []
 listaC = []
 
+contador = 0
 for i in range(7):
-    listaA.append([lista[0], lista[3],lista[6], lista[9],lista[12], lista[15],lista[18]])
-    listaB.append([lista[1], lista[4],lista[7], lista[10],lista[13], lista[16],lista[19]])
-    listaC.append([lista[2], lista[5],lista[8], lista[11],lista[14], lista[17],lista[20]])
-listaA = listaA[0]
-listaB = listaB[0]
-listaC = listaC[0]
+    listaA.append(lista[contador])
+    contador +=1
+    listaB.append(lista[contador])
+    contador += 1
+    listaC.append(lista[contador])
+    contador += 1  
 
 print("A  B  C")
 for i in range(7):
@@ -50,13 +51,14 @@ listaA = []
 listaB = []
 listaC = []
 
+contador = 0
 for i in range(7):
-    listaA.append([lista[0], lista[3],lista[6], lista[9],lista[12], lista[15],lista[18]])
-    listaB.append([lista[1], lista[4],lista[7], lista[10],lista[13], lista[16],lista[19]])
-    listaC.append([lista[2], lista[5],lista[8], lista[11],lista[14], lista[17],lista[20]])
-listaA = listaA[0]
-listaB = listaB[0]
-listaC = listaC[0]
+    listaA.append(lista[contador])
+    contador +=1
+    listaB.append(lista[contador])
+    contador += 1
+    listaC.append(lista[contador])
+    contador += 1  
 
 print("A  B  C")
 for i in range(7):
@@ -78,13 +80,14 @@ listaA = []
 listaB = []
 listaC = []
 
+contador = 0
 for i in range(7):
-    listaA.append([lista[0], lista[3],lista[6], lista[9],lista[12], lista[15],lista[18]])
-    listaB.append([lista[1], lista[4],lista[7], lista[10],lista[13], lista[16],lista[19]])
-    listaC.append([lista[2], lista[5],lista[8], lista[11],lista[14], lista[17],lista[20]])
-listaA = listaA[0]
-listaB = listaB[0]
-listaC = listaC[0]
+    listaA.append(lista[contador])
+    contador +=1
+    listaB.append(lista[contador])
+    contador += 1
+    listaC.append(lista[contador])
+    contador += 1  
 
 lista = listaA+listaB+listaC
 
