@@ -2,7 +2,7 @@
 
 ## Passo a passo até a conclusão do código
 
-Grupo composto por: Flávia Juchen, Iago Ferreira,  Katiana Hanisch
+Grupo composto por: [Flávia Juchen](https://github.com/flaviajuchen), [Katiana Hanisch](https://github.com/KatianaHanisch), [Iago Ferreira](https://github.com/iagoaparecido)
 
 Link do código
 
