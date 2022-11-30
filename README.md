@@ -4,10 +4,6 @@
 
 Grupo composto por: [Flávia Juchen](https://github.com/flaviajuchen), [Katiana Hanisch](https://github.com/KatianaHanisch), [Iago Ferreira](https://github.com/iagoaparecido)
 
-Link do código
-
-[https://github.com/IagoAparecido/magica](https://github.com/IagoAparecido/magica)
-
 Após a explicação por meio das cartas de baralho, que nos ajudou a entender a lógica por trás da mágica e também da explicação do Prof. Will de como seria o início do código, se tornou fácil iniciarmos o programa.
 
 Com a criação das três primeiras listas, denominadas de “a”, ”b” e “c”, expomos elas na tela em colunas (coluna A, B e C) junto com a pergunta sobre qual coluna abrigava  a opção escolhida.
