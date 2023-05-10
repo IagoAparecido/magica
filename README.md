@@ -31,7 +31,7 @@ else:
     print("Opção Inválida")
 ```
 
-Após isso, criamos outras três variáveis, denominadas “listaA”, “listaB” e “listaC”, que são arrays vazias.
+Após isso, criamos outras três variáveis denominadas “listaA”, “listaB” e “listaC”, que são arrays vazias.
 
 ```python
 listaA = []
@@ -39,7 +39,7 @@ listaB = []
 listaC = []
 ```
 
-Com as variáveis de arrays vazios criadas, o próximo passo foi criarmos um for com o range de 7, onde em cada passagem do for, as variáveis “listaA”, “listaB” e “listaC” receberiam um valor, determinado por nós, da variável “lista”(variável contendo o valor das três varáveis iniciais).
+Com as variáveis de arrays vazios criadas, o próximo passo foi criarmos um for com o range de 7, onde em cada passagem do for as variáveis “listaA”, “listaB” e “listaC” receberiam um valor, determinado por nós, da variável “lista”(variável contendo o valor das três varáveis iniciais).
 
 ```python
 contador = 0
@@ -61,9 +61,9 @@ for i in range(7):
 seleciona2 = input("Selecione a coluna que está sua opção: ")
 ```
 
-O usuário indica qual a coluna, “A”, ”B” ou “C”, o processo acima se repete, com a coluna selecionada a concatenação é feita novamente e as variáveis “listaA”, “listaB” e “listaC” são transformadas novamente em arrays vazias para prosseguir ao próximo for.
+O usuário indica qual a coluna, “A”, ”B” ou “C”, então o processo acima se repete. Com a coluna selecionada, a concatenação é feita novamente e as variáveis “listaA”, “listaB” e “listaC” são transformadas novamente em arrays vazias para prosseguir ao próximo for.
 
-Após a primeira escolha, esse processo se repete três vezes, onde na terceira vez é exibida a opção escolhida pelo usuário.
+Após a primeira escolha esse processo se repete três vezes, onde na terceira vez é exibida a opção escolhida pelo usuário.
 
 ```python
 print("A opção escolhida foi: "+lista[10])
